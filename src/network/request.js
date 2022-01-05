@@ -4,7 +4,7 @@ export function request (config) {
   //1.创建axios实例
   const instance = axios.create({
     //添加backend前缀，为部署vercle跨域服务
-    baseURL: 'http://152.136.185.210:8000/api/w6/backend',
+    baseURL: 'http://152.136.185.210:8000/api/w6',
     timeout: 1000,
   })
 
