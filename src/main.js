@@ -20,7 +20,7 @@ Vue.prototype.$bus = new Vue()
 
 // 安装vue-lazyload插件
 Vue.use(VueLazyload, {
-    loading: require('assets/img/common/placeholder.png'),
+  loading: require('assets/img/common/placeholder.png'),
 })
 
 // 安装toast插件
@@ -31,7 +31,7 @@ FastClick.attach(document.body)
 
 
 new Vue({
-    router,
-    store,
-    render: h => h(App),
+  router,
+  store,
+  render: h => h(App),
 }).$mount('#app')
