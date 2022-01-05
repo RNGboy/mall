@@ -9,7 +9,7 @@ export function request (config) {
   })
 
   // vercel部署http->https跨域处理
-  instance.defaults.headers.common['Referrer-Policy'] = origin;
+  instance.defaults.headers.common['Referrer-Policy'] = "unsafe-url";
 
   // 2.axios的拦截器
   // 2.1.请求拦截的作用
